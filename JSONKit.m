@@ -136,10 +136,6 @@
 #error JSONKit does not support Objective-C Garbage Collection
 #endif
 
-#if __has_feature(objc_arc)
-#error JSONKit does not support Objective-C Automatic Reference Counting (ARC)
-#endif
-
 // The following checks are really nothing more than sanity checks.
 // JSONKit technically has a few problems from a "strictly C99 conforming" standpoint, though they are of the pedantic nitpicking variety.
 // In practice, though, for the compilers and architectures we can reasonably expect this code to be compiled for, these pedantic nitpicks aren't really a problem.
